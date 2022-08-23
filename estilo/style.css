@@ -1,23 +1,43 @@
-<style>
+
 				*{
 				margin:0;
-				font-family;roboto,sans-serif;
+				padding: 0%
+				box-sizing: border-box;
+				font-family:roboto,sans-serif;
+
 				}
+
 			body {
                 width: 760px;
-                margin: auto
-                text-align: justify
-                background-color:   rgb 
+                margin: auto;
+                text-align: justify;
+                background-color:   rgb(247, 83, 7); 
             }		
             <main> 
-            background-color: rgb 
+			background-color: rgb(0,0,225)
             margin:20px
             padding:20px
-			h1{
-				font-family; roboto, sains-serif;		
-				font-size:60px;
-				margin:0;
-				color:rgb (0,0,255);
+			main h1{
+				font-famil: roboto, sains-serif;		
+				font-size: 60px;
+				margin: 0;
+				text-transform
+				color:rgb(0,0,255);
 			}
 
-			</style> 
+			h2 {
+				font-size: 40px; 
+			}
+			li a {
+				backgroind-color:rgb(255, 255, 255);
+				list-style-type: square type nome;
+				display: inline;
+				padding: 10px;
+				line-height: 20px 
+			} 
+			footer{
+			   background-color: black;
+
+			}
+			aside
+			float:
