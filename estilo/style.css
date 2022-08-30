@@ -19,6 +19,25 @@ body{
     background-color: var(--cor-de-fundo);
 }
 
+header{
+    background-color: var(--cor-de-fundo); 
+    height: 150px;
+    width: 1024px;
+    margin: auto;
+    position: relative;
+
+}
+
+header nav{
+        width:1024px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    header nav ul li {
+        display: inline-block;
+    }
+
 main{
     background-color: var(--cor-secundaria);
     text-align: justify;
@@ -32,9 +51,9 @@ blockquote{
     float: left;
     width: 30%;
     background-color: rgb(206, 202, 202);
-    /* border-width: 10px;
-    border-style: solid;
-    border-color: black; */
+    /* border-width: 10px; */
+    /* border-style: solid; */
+    /* border-color: black; */
     border: 10px solid #7a7a7a;
     display: block;
     margin: 0 5%;
@@ -57,6 +76,9 @@ h2 {
     font-size: 40px;
 }
 
+p{
+    text-indent: 50px;
+}
 figure{
     width: 19.4%;
     position: absolute;
@@ -84,14 +106,17 @@ aside {
 
 li{
     background-color: var(--cor-azul);
-    /* list-style-type: none;
-    display: block;
-    padding: 0;
-    height: 40px;
-    width: 40px; 
-    */
+     /* list-style-type: none; */
+    /* display: block; */
+    /* padding: 0; */
+    /* height: 40px; */
+    /* width: 40px;  */
+    
 }
-
+ul, ol {
+    /* todos os atributos de lista */
+    list-style: nome;
+}
 
 nav ul li a {
     display: block;
@@ -156,7 +181,7 @@ img{
     text-align: center;
 }
 
-ul{
+aside, nav, ul{
     background-color: var(--cor-azul);
 }
 
@@ -169,9 +194,24 @@ ul{
     margin-left: 10px;
 }
 .icones-sociais a{
-    background-image: url(img/github.png);
+     /* background-image: url(../img/github.png); */
     width: 40px;
     height: 40px;
     display: inline-block;
     color: white;
+    text-indent: -9999px;
+    /* font-size: 0; */
+    /* color: rgba(0, 0, 0, 0); */
+ }
+
+ .github{
+     background-image: url(../img/github.png);
+
+ }
+ .linkedin{
+     background-image:url(../img/linkedin.png);
+
+ }
+ .twitter{
+     background-image: url(../img/twitter.png);
  }

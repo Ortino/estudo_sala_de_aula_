@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif, verdana
+
+}
+main {
+    height: 300vh;
+
+}
+h1{
+    position: fixed;
+    margin-top: 50px;
+}
+.pai{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    bottom:0;
+}
+
+h2{
+    margin-top:100px;
+
+}
+.filho{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    
+}
