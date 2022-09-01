@@ -38,6 +38,10 @@ nav, ul, li {
     background-color: var(--cor-hover);
     transition: 0.6s;
  }
+ nav ul li:last-child a{
+    float: right;
+    
+ }
 
  /* submenu */
  nav ul ul{

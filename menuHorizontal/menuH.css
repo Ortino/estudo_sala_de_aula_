@@ -13,13 +13,19 @@
 }
 
 nav{
-    max-width:350px;
-    width: 100%;
+    background-color: var(--cor-de-fundo);
+
+}
+nav{
+    max-width:900px;
+    margin: auto;
     background-color: var(--cor-de-fundo);
 }
 
 nav, ul, li {
+    display: inline;
     position: relative;
+
 }
 
  ol,ul{
@@ -27,8 +33,9 @@ nav, ul, li {
  }
 
  nav ul li a{
-     display: block;
+     display: inline-block;
      padding: 10px;
+     text-decoration: nome;
      color: var(--cor-principal);
      text-decoration: none;
 
@@ -39,14 +46,18 @@ nav, ul, li {
     transition: 0.6s;
  }
 
+ nav ul: :last-child{
+     background-color: var (--cor de- fundo);
+ }
  /* submenu */
  nav ul ul{
      display: none;
      position: relative;
-     left: 20px;
+     left: 0;
 
  }
  nav ul li:hover ul{
-     display: inline-block;
+     display: block;
+     position: absolute;
 
  }
