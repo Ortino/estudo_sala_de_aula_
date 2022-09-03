@@ -25,6 +25,41 @@ header{
     position: relative;
 }
 
+header img{
+    width: 80px;
+
+}
+
+#logo{
+    position: absolute;
+    left: 0%;
+    top: 10px;
+    height: 90px;
+
+}
+/* placeholder o testo nao vai ser alterado */
+/* o buscar */
+input[type=text]{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 38px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    /* text-indent: 5px; */
+    padding: 5px;
+
+}
+#textoEviamos{
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    font-: center;
+    color:var(--cor-secundaria)
+}
+
+
 header nav{
     width: 1024px;
     position: absolute;
@@ -90,6 +125,7 @@ figure{
     right: 30px;    
 }
 
+/* borda */
 aside, figure{
     float: right;
     background-color: #7a7a7a;
