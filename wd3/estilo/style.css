@@ -1,17 +1,16 @@
 :root{
     --cor-do-texto-secundario: #666;
-    --cor-do-texto-principal: #402c71;
-    --cor-do-texto-barra: #422d71;
+    --cor-do-texto-principal: #402C71;
+    --cor-do-texto-barra: #422D71;
     --cor-do-link-menu: #FFF;
 }
 
 *{
     margin: 0;
-
 }
 
-boby{
-    font-family: 'Trebuchet MS', 
+body{
+    font-family: 'Trebuchet MS';
 }
 
 .orbit-bullets{
@@ -22,14 +21,13 @@ main{
     width: 960px;
     height: auto;
     margin: auto;
-
 }
 
 header{
     width: 960px;
     height: 35px;
+    float: left;
     background-color: var(--cor-do-texto-barra);
-
 }
 
 #logo{
@@ -39,18 +37,14 @@ header{
     position: relative;
     top: 0;
     left: 0;
-    z-index: 4;
-    
+    z-index: 10;
 }
 
 nav{
-    
     float: right;
-    line-height: 35px;/* line-height: largura da letra */
+    line-height: 35px;
     position: relative;
-    z-index: 10;
-    
-
+    z-index: 20;
 }
 
 nav a{
@@ -61,18 +55,17 @@ nav a{
 }
 
 nav a:hover{
-    text-decoration:  underline;
+    text-decoration: underline;
 }
 
 h2{
     color: var(--cor-do-texto-principal);
     font-size: 20px;
     margin-bottom: 0;
-
 }
 
 p{
-    color: var(--cor-do-texto-secundario);
+    color:  var(--cor-do-texto-secundario);
     font-size: 14px;
     line-height: 120%;
     margin-top: 10px;
@@ -80,10 +73,9 @@ p{
 
 img{
     border: none;
-
 }
 
-#imgleft{
+#imgLeft{
     float: left;
 }
 
@@ -93,16 +85,17 @@ img{
     font-style: italic;
     font-weight: bold;
 }
+
 #tudo{
     width: 100%;
     height: 100%;
     background-color: #000;
+    opacity: 0.7;
+    /* background-color: rgba(0, 0, 0, .7); */
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 1001;
-    opacity: 0.7;
-    /* background-color: rgb(0,0,0); */
     display: none;
 }
 
@@ -134,8 +127,7 @@ img{
     position: absolute;
     top: 35px;
     left: 90px;
-    /* z-index: 20; */
-    
+    /* z-index: 30; */
 }
 
 #caixa a{
@@ -152,10 +144,10 @@ img{
 
 #box1, #box2, #box3{
     width: 280px;
-    min-height: 100px; /* min-height: minimo de altura */
+    min-height: 100px;
     float: left;
-
 }
+
 #box2{
     margin-left: 60px;
     margin-right: 60px;
@@ -171,5 +163,5 @@ footer{
     font-size: 12px;
     margin-top: 20px;
     line-height: 35px;
-
+    position: relative;
 }
