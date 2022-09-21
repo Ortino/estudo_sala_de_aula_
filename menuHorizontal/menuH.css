@@ -43,24 +43,26 @@ nav ul li a:hover {
 }
 
 /* nav ul li:last-child a { */
-nav ul li:nth-child(6) a {
-/* .entrar{ */
-    float: right;
-    background-color: chocolate;
+    nav ul li:nth-child(6) a {
+        /* .entrar{ */
+float: right;
+background-color: chocolate;
 }
-
+        
 nav ul:last-child{
-    background-color: var(--cor-fundo);
+background-color: var(--cor-fundo);
 }
-
 /* Submenu */
 nav ul ul {
-    display: none;
-    position: absolute;
-    left: 0;
+display: none;
+position: absolute;
+left: 0;
 }
-
+        
 nav ul li:hover ul {
-    display: block;
+ display: block;
     position: absolute;
+}
+ nav ul ul a{
+ widows: 100%
 }
