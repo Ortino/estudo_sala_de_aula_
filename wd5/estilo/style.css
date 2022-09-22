@@ -69,6 +69,11 @@ body{
     background-color: #EEE;
     color: #333;
 
+    box-shadow: 3px 3px 10px #666666;
+    border-radius: 5px;
+    transform: rotate(10deg);
+    -webkit-transition: rotate(10seg);
+    transform: 0.5s;
 }
 #banner{
     width: 100%;
