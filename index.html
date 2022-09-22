@@ -15,7 +15,7 @@
 			<section>
 				<figure id="logo">
 					<img src="img/favicon.ico" alt="Logo">
-				</figure>
+				<figure>
 				<input type="text" name="buscar" id="buscar" placeholder="Busque aqui">
 				<h1 id="textoEnviamos">Enviamos produtos para todo o território nacional.</h1>
 				<figure style="border: none">
@@ -24,6 +24,7 @@
 				</figure>
 			</section>
 			<nav>
+				<span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Produtos</a></li>
@@ -155,6 +156,24 @@
 		<footer>
 			&copy; Site Estudo
 		</footer>
+		<script>
+			// alert=(Ola mundo)
+			function mudouTamanho(){
+				if(window.innerWidth >= 768){
+					itens.style.display = 'block';
+				}else{
+					itens.style.display = 'none';
+				}
+			}
+
+			function clickMenu(){
+				 if(itens.style.display == 'block'){ /*if se tem que ser verdadeiro ou falso*/
+					itens.style.display = 'none';
+				}else{
+				itens.style.display = 'block';
+				}
+			}
+		</script>
 </body>
 
 </html>
