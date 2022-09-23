@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilo/style.css">
     <title>SENAC - WD4</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <main>
         <header>
             <section id="logo">
                 <img src="img/logo.png" alt="logotipo">
             </section>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
             <nav id="menu">
                 <a href="#">HOME</a>
                 <a href="#">QUEM SOMOS</a>
@@ -49,5 +51,23 @@
             Book Livraria - Todos os direitos reservados
         </footer>
     </main>
+    <script>
+        // alert=(Ola mundo)
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block';
+            }else{
+                itens.style.display = 'none';
+            }
+        }
+
+        function clickMenu(){
+             if(itens.style.display == 'block'){ /*if se tem que ser verdadeiro ou falso*/
+                itens.style.display = 'none';
+            }else{
+            itens.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>

@@ -22,7 +22,7 @@ body{
 
 main{
     background-color: var(--cor-secundaria);
-    text-align:justify:
+    text-align:justify;
     /* margin: 20px; */
     padding:20px;
     position:20px;
@@ -32,14 +32,14 @@ main{
     blockquote{
     padding: 10px;
     float: left;
-    width: 30px
-    backgrounde-color: rgb(206,202,202)
+    width: 30px;
+    background-color:  rgb(206,202,202);
     /*border-width: 10px;
     border-style: solid;
     border-color: black;*/
-    border: 10px solid #7a7a7a7a:
-    display: block:
-    margin:0 5%:
+    border: 10px solid #7a7a7a7a;
+    display: block;
+    margin:0 5%;
     
 }
 
@@ -53,15 +53,16 @@ text-align: right;
 
 }
 .limpafloat{
-clear: both:
+clear: both;
 }
+
 h2 {
     font-size: 40px;
 }
 
 figure{
-    width;19.4%;
-    backgrounde-color: #7a7a7a;
+    width:19.4%;
+    background-color: #7a7a7a;
     top:20px;
     right: 30px
 
@@ -79,7 +80,7 @@ asider{
     margin: auto;
     position: relative;
     top: 20px;
-    rihht: 20px;
+    right: 20px;
     clear: right;
     /*background-color: var(--cor-secundaria); */
 
@@ -102,9 +103,9 @@ li a {
     text-align: center;
 }
 
-nava li a:hover{
+nav li a:hover{
     display: block;
-    background-color: var(--cor-de-fundo):
+    background-color: var(--cor-de-fundo);
     text-transform: bold;
     transition: .6s;
 
@@ -118,7 +119,7 @@ footer{
 }
 .divisaoColuna{
 float: left;
-width: 40%:
+width: 40%;
 }
 /* main h1{ */
 /*
