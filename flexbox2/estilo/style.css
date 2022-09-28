@@ -57,7 +57,7 @@ img{
 
 .flex > div{
     margin: 10px;
-    /* flex-grow: 1;
+    /* flex-grow: 1;tem que esta no ordem
     flex-shrink: 1;
     flex-basis: 200px; */
     flex: 1 1 200px;
